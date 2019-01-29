@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ball /> should render number 8 while loading the page initially when there is not answer 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Ball />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ball"
+      >
+        <div
+          className="inner_circle"
+        >
+          <div
+            className="number8"
+          >
+             8 
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner_circle"
+        >
+          <div
+            className="number8"
+          >
+             8 
+          </div>
+        </div>,
+        "className": "ball",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="number8"
+          >
+             8 
+          </div>,
+          "className": "inner_circle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " 8 ",
+            "className": "number8",
+          },
+          "ref": null,
+          "rendered": " 8 ",
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ball"
+        >
+          <div
+            className="inner_circle"
+          >
+            <div
+              className="number8"
+            >
+               8 
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner_circle"
+          >
+            <div
+              className="number8"
+            >
+               8 
+            </div>
+          </div>,
+          "className": "ball",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="number8"
+            >
+               8 
+            </div>,
+            "className": "inner_circle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " 8 ",
+              "className": "number8",
+            },
+            "ref": null,
+            "rendered": " 8 ",
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Ball /> should render supplied answer 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Ball
+    answer="You are lucky"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ball"
+      >
+        <div
+          className="inner_circle"
+        >
+          <div
+            className="animated zoomIn answer"
+          >
+             
+            You are lucky
+             
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner_circle"
+        >
+          <div
+            className="animated zoomIn answer"
+          >
+             
+            You are lucky
+             
+          </div>
+        </div>,
+        "className": "ball",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="animated zoomIn answer"
+          >
+             
+            You are lucky
+             
+          </div>,
+          "className": "inner_circle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              " ",
+              "You are lucky",
+              " ",
+            ],
+            "className": "animated zoomIn answer",
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            "You are lucky",
+            " ",
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ball"
+        >
+          <div
+            className="inner_circle"
+          >
+            <div
+              className="animated zoomIn answer"
+            >
+               
+              You are lucky
+               
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner_circle"
+          >
+            <div
+              className="animated zoomIn answer"
+            >
+               
+              You are lucky
+               
+            </div>
+          </div>,
+          "className": "ball",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="animated zoomIn answer"
+            >
+               
+              You are lucky
+               
+            </div>,
+            "className": "inner_circle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "You are lucky",
+                " ",
+              ],
+              "className": "animated zoomIn answer",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "You are lucky",
+              " ",
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

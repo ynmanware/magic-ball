@@ -1,0 +1,15 @@
+{
+  "name": "magic-ball-server",
+  "version": "1.0.0",
+  "description": "This is a simple REST API that returns set of Magic 8 Ball Answers",
+  "main": "index.js",
+  "author": "Yogesh",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
